@@ -1,3 +1,3 @@
-Install-Module PSGitLab -Scope CurrentUser
+Install-Module PSGitLab -Scope CurrentUser -Force
 
 Test-GitLabAPI
