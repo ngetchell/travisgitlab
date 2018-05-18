@@ -2,7 +2,7 @@ language: cpp
 sudo: required
 dist: trusty
 install:
-- sudo bash <(wget -O - https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/install-powershell.sh)
+- bash <(wget -O - https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/install-powershell.sh)
 script:
 - powershell --version
 notifications:
