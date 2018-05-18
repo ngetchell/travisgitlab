@@ -1,7 +1,8 @@
-language: python
-python: '2.7'
+language: cpp
+sudo: required
+dist: trusty
 install:
-- bash <(wget -O - https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/install-powershell.sh)
+- sudo bash <(wget -O - https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/install-powershell.sh)
 script:
 - powershell --version
 notifications:
