@@ -1,4 +1,5 @@
 $ProgressPreference = 'Silent'
+$WarningPreference = 'Silent'
 
 
 $Token = Get-Random
